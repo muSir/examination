@@ -1,0 +1,136 @@
+/**{padding:0;margin:0 auto;}*/
+/**
+*弹出框整体样式
+ */
+.pop {
+    display: none;
+    width: 600px; min-height: 300px;  max-height: 550px;  height:auto;
+    position: absolute;
+    top: 0;  left: 0;  bottom: 0;  right: 0;  margin: auto;  padding: 0;
+    z-index: 130;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 18px rgba(100, 0, 0, .5);
+}
+/**
+ *弹出框标题（最上层）栏
+ */
+.pop-top{
+    height:40px;
+    width:100%;
+    border-bottom: 1px #E5E5E5 solid;
+    position: relative;
+}
+/**
+ *弹出框最底部
+ */
+.pop-foot{
+    height:50px;  line-height:50px;  width:100%;
+    border-top: 1px #E5E5E5 solid;
+    text-align: right;
+}
+/*弹出框中间部分*/
+.pop-content{
+    height: auto;
+    min-height: 450px;
+    text-align: center;
+}
+/*遮罩层*/
+.bgPop{
+    display: none;  position: absolute;  z-index: 129;  left: 0;  top: 0;  width: 100%;  height: 100%;  background: rgba(0,0,0,.2);
+}
+
+.window-title{
+    display: inline-block;
+    /*height:40px;*/
+    line-height:40px;
+    margin-left: 10px;
+    font:normal 14pt 'MicroSoft YaHei';
+    text-align: center;
+}
+/*关闭弹出窗按钮*/
+#closeBtn{
+    margin-bottom: 5px;
+    height:40px;
+    float: right;
+    border-left: none;border-right: none;  border-top: none
+}
+.container-fluid{
+    margin-top: 10px;
+    /*text-align: center;*/
+}
+
+.checkbox{
+    width: 600px;
+    height: 40px;
+    /*border-bottom: 1px #E5E5E5 solid;*/
+    vertical-align: middle;
+    text-align: left;
+}
+
+.download-file-label{
+    display: inline-block;
+    line-height: 40px;
+    font: normal 18px 'MicroSoft YaHei';
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dialog-download-container{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/*增加题目详细面板样式*/
+#title-container{
+    margin-top: 10px;
+}
+
+#title-label{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.option-input {
+    width: 600px;
+    height: 34px;
+    margin-top: 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.option-input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.option-input::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+.option-input:-ms-input-placeholder {
+    color: #999;
+}
+.option-input::-webkit-input-placeholder {
+    color: #999;
+}
+.option-input::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}

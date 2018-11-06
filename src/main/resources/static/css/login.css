@@ -1,0 +1,104 @@
+form{
+    width: 500px;
+    height: 300px;
+    padding: 0px 15px 15px 120px;
+    background: white;
+    border: 0.5px solid silver;
+    /*margin: 0 auto;*/
+}
+form fieldset{
+    border: 0;
+    align: center;
+}
+form fieldset legend{
+    font-family: 微软雅黑 ;
+    font-size: 14pt;
+    color: red;
+}
+form label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-family: 微软雅黑 ;
+}
+input{
+    width: 240px;
+    height: 30px;
+    font-family: 微软雅黑 ;
+    font-size: 12pt;
+}
+/*错误提示标签样式*/
+.error-label{
+    width: 300px;
+    height: 35px;
+    font-size: 14pt;
+    color: red;
+    text-align: center;
+    margin-left: 20px;
+}
+.btnSubmit{
+    width: 300px;
+    height: 35px;
+    position: relative;
+    left: 70px;
+}
+.btnSubmit:hover{
+    cursor: pointer;
+    background:#D8D8D8;
+}
+body{
+    width:100%;
+    height:100%;
+    background: url("../images/new/back_login.jpg") repeat;/*设置背景图及是否重复显示*/
+    /*设置背景图片相对父元素的大小*/
+    /*background-size: 100% 100%;*/
+}
+.main{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 706px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.operate-pwd-container{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 90px;
+}
+/*忘记密码标签*/
+.forget-pwd{
+    width: 80px;
+    text-align: right;
+    font-family: 微软雅黑 ;
+    margin-left: 50px;
+}
+/*记住密码复选框自定义样式*/
+input[type="checkbox"] + label::before{
+    content:"\00a0";  /*Unicode字符集，生成“空格”*/
+    display:inline-block;
+    width:16px;
+    height:16px;
+    line-height:20px;
+    border-radius:5px;
+    margin:3px;
+    background-color:white;
+    border:1px solid black;
+}
+/*添加选中样式*/
+  input[type="checkbox"]:checked+label::before{
+      content:"\2713";  /*Unicode字符集，生成“勾选符号”*/
+      color:black;
+  }
+/*添加聚焦样式*/
+  input[type="checkbox"]:hover + label:after{
+      box-shadow: 0 0 2px 2px #58a;
+  }
+/*隐藏原生复选框*/
+  .old-check{
+      position:absolute;
+      opacity: 0;
+      z-index: -1;
+  }

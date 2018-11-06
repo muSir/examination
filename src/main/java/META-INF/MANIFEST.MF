@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Class-Path: tomcat-annotations-api-8.5.23.jar spring-tx-4.3.13.RELEASE
+ .jar protostuff-runtime-1.0.8.jar spring-orm-4.3.13.RELEASE.jar mysql
+ -connector-java-5.1.44.jar slf4j-api-1.7.25.jar freemarker-2.3.27-inc
+ ubating.jar commons-codec-1.10.jar spring-data-commons-1.13.9.RELEASE
+ .jar jandex-2.0.0.Final.jar jul-to-slf4j-1.7.25.jar jackson-databind-
+ 2.8.10.jar logback-classic-1.1.11.jar hibernate-jpa-2.1-api-1.0.0.Fin
+ al.jar tomcat-embed-el-8.5.23.jar groovy-2.4.13.jar aspectjweaver-1.8
+ .13.jar spring-web-4.3.13.RELEASE.jar spring-boot-starter-tomcat-1.5.
+ 9.RELEASE.jar tomcat-jdbc-8.5.23.jar jcl-over-slf4j-1.7.25.jar common
+ s-collections4-4.1.jar tomcat-embed-websocket-8.5.23.jar spring-aop-4
+ .3.13.RELEASE.jar curvesapi-1.04.jar validation-api-1.1.0.Final.jar s
+ pring-boot-1.5.9.RELEASE.jar unbescape-1.1.0.RELEASE.jar spring-core-
+ 4.3.13.RELEASE.jar spring-boot-autoconfigure-1.5.9.RELEASE.jar snakey
+ aml-1.17.jar spring-boot-starter-data-jpa-1.5.9.RELEASE.jar jackson-c
+ ore-2.8.10.jar thymeleaf-2.1.6.RELEASE.jar xmlbeans-2.6.0.jar thymele
+ af-spring4-2.1.6.RELEASE.jar spring-boot-starter-aop-1.5.9.RELEASE.ja
+ r spring-expression-4.3.13.RELEASE.jar protostuff-collectionschema-1.
+ 0.8.jar poi-ooxml-schemas-3.17.jar classmate-1.3.4.jar jackson-annota
+ tions-2.8.0.jar spring-boot-starter-web-1.5.9.RELEASE.jar spring-boot
+ -starter-1.5.9.RELEASE.jar spring-webmvc-4.3.13.RELEASE.jar spring-bo
+ ot-starter-thymeleaf-1.5.9.RELEASE.jar protostuff-core-1.0.8.jar spri
+ ng-boot-starter-jdbc-1.5.9.RELEASE.jar ognl-3.0.8.jar log4j-over-slf4
+ j-1.7.25.jar spring-jdbc-4.3.13.RELEASE.jar poi-ooxml-3.17.jar spring
+ -context-4.3.13.RELEASE.jar spring-boot-starter-freemarker-1.5.9.RELE
+ ASE.jar jedis-2.7.3.jar spring-data-jpa-1.11.9.RELEASE.jar hibernate-
+ entitymanager-5.0.12.Final.jar stax-api-1.0.1.jar spring-boot-starter
+ -logging-1.5.9.RELEASE.jar dom4j-1.6.1.jar commons-pool2-2.4.3.jar pr
+ otostuff-api-1.0.8.jar logback-core-1.1.11.jar tomcat-embed-core-8.5.
+ 23.jar spring-context-support-4.3.13.RELEASE.jar jboss-logging-3.3.1.
+ Final.jar poi-3.17.jar antlr-2.7.7.jar hibernate-validator-5.3.6.Fina
+ l.jar hibernate-core-5.0.12.Final.jar hibernate-commons-annotations-5
+ .0.1.Final.jar javassist-3.21.0-GA.jar javax.transaction-api-1.2.jar 
+ spring-aspects-4.3.13.RELEASE.jar spring-beans-4.3.13.RELEASE.jar tom
+ cat-juli-8.5.23.jar thymeleaf-layout-dialect-1.4.0.jar
+Main-Class: cn.merson.examination.ExaminationApplication
+

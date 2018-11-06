@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: aquamarine;
+    text-align: center;
+    margin: 0 auto;
+    border: solid 1px black;
+}
+.navigation{
+    list-style-type:none;
+    height: auto;
+    text-align: center;
+    width: 1500px;
+    margin: 0 auto;
+}
+.navigation li{
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    float: left;
+    padding-top: 0;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    background: red;
+}
+
+.navigation li:hover{
+    color:#CC0000;
+    text-decoration:underline;
+    /*background-image:url(images/active.jpg);*/
+}
+
+.navigation li a{
+    width:120px;
+    height:45px;
+}
+
+.navigation li a:hover{
+    color:#CC0033;
+}
+
+.navigation li a:link{
+    text-decoration: none;
+    color:#FFFF00;
+}
+
+.navigation li a:visited{
+    text-decoration: none;
+    color:#FFFF00;
+}
+
+#left {/*background-image:url(images/left.jpg);*/ width:22px;}

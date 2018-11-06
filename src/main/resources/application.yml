@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/examination?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  #文件上传我配置
+  http:
+    multipart:
+      max-file-size: 10MB #单个文件上传时的最大值
+      resolve-lazily: true #推迟文件解析
+      enabled: true
+      max-request-size: 100MB #批量上传时的最大值
+      
