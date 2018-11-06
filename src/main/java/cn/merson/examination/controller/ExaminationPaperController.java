@@ -38,6 +38,7 @@ public class ExaminationPaperController {
         if (dtos != null){
             model.addAttribute("totalCount",dtos.size());
             model.addAttribute("papers",dtos);
+
         }
         return resultModel.getUrl();
     }
